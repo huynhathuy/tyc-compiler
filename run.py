@@ -82,7 +82,7 @@ class TyCBuilder:
         self.antlr_jar = f"antlr-{self.antlr_version}-complete.jar"
         self.antlr_url = f"https://www.antlr.org/download/{self.antlr_jar}"
 
-        self.python_version = "3.12"
+        self.python_version = "3.11"
 
         self.colors = Colors()
 
